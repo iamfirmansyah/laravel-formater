@@ -1,0 +1,30 @@
+{
+    "name": "iamfirmansyah/formater",
+    "description": "simple formater for laravel packages",
+    "type": "library",
+    "homepage": "https://github.com/iamfirmansyah/laravel-formater.git",
+    "keywords": [
+        "formater"
+    ],
+    "authors": [
+        {
+            "name": "iamfirmansyah",
+            "email": "imamfirmansyah724@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.0 || ^8.0"
+    },
+    "version": "1.0",
+    "autoload": {
+        "psr-4": {
+            "Iamfirmansyah\\Formater\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "config": {
+        "preferred-install": "dist"
+    }
+}
